@@ -1,0 +1,3 @@
+std::vector<bool> vec; // ...some operations...
+bool b = vec[0]; // Accessing a boolean element
+int i = static_cast<int>(vec[0]); // Explicit conversion to int. This is the safe practice.
